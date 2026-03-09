@@ -87,7 +87,7 @@ export default function Home() {
   return (
     <div style={{ padding: '40px', maxWidth: '500px', margin: '0 auto' }}>
       <h1>AI-BOSS Runway Calculator</h1>
-      
+      <a href="/history" style={{ color: 'blue' }}>View History →</a>
       <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
         <input 
           placeholder="Cash ($)" 
